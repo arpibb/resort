@@ -28,7 +28,7 @@ export default class Services extends Component {
     }
     render(){   
         return (
-            <div>
+            <section className="services">
                 <Title title="services"></Title>
                 <div className="services-center">
                     {this.state.services.map((item,index) => {
@@ -40,7 +40,7 @@ export default class Services extends Component {
                     })}
                 </div>
                 
-            </div>
+            </section>
         )
     }
 }
